@@ -159,29 +159,7 @@ shutil
 subprocess
 Additional Tools
 ffmpeg (for merging audio chunks if required).
-Installation
 
-Install Python 3.6 or later.
-Clone the repository:
-git clone https://github.com/your-repository/audiobook-converter.git
-cd audiobook-converter
-Install dependencies:
-pip install gtts pyttsx3 PyPDF2
-Install ffmpeg:
-For Windows: Download from https://ffmpeg.org and add it to the PATH.
-For macOS/Linux: Use your package manager (e.g., brew install ffmpeg).
-Usage
-
-Run the application:
-python audiobook_converter.py
-Follow these steps in the GUI:
-Click "Select PDF File" to upload a PDF.
-Wait for the conversion process to finish.
-Click "Play Audiobook" to listen to the audio.
-Click "Download Audiobook" to save the MP3 file to your system.
-Close the application:
-Click "Close App" to exit the program.
-Troubleshooting
 
 No audio generated: Ensure that either gtts or pyttsx3 is installed. If using gtts, ensure you have an active internet connection.
 ffmpeg errors: Confirm ffmpeg is installed and accessible from your system's PATH.
